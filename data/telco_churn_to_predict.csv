@@ -1,0 +1,21 @@
+customer_id,count,gender,age,under_30,senior_citizen,married,dependents,number_of_dependents,referred_a_friend,number_of_referrals,tenure_in_months,offer,phone_service,avg_monthly_long_distance_charges,multiple_lines,internet_service,internet_type,avg_monthly_gb_download,online_security,online_backup,device_protection_plan,premium_tech_support,streaming_tv,streaming_movies,streaming_music,unlimited_data,contract,paperless_billing,payment_method,monthly_charge,total_charges,total_refunds,total_extra_data_charges,total_long_distance_charges,total_revenue,satisfaction_score,cltv,churn_label
+6586-MYGKD,1,Male,46,No,No,Yes,No,0,Yes,1,70,Offer A,Yes,18.26,Yes,Yes,DSL,18,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,76.95,5289.8,0,0,1278.2,6568,3,6280,No
+9359-JANWS,1,Female,22,Yes,No,Yes,No,0,Yes,5,65,None,Yes,34.31,No,Yes,DSL,71,Yes,No,Yes,Yes,No,No,No,Yes,Two Year,No,Credit Card,58.9,3857.1,0,0,2230.15,6087.25,4,5657,No
+6437-UDQJM,1,Female,72,No,Yes,Yes,No,0,Yes,5,72,None,Yes,47.4,Yes,Yes,DSL,28,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,84.1,6129.65,0,0,3412.7999999999997,9542.449999999999,3,4999,No
+7762-URZQH,1,Male,30,No,No,Yes,No,0,No,0,66,None,Yes,23.51,Yes,Yes,Fiber Optic,52,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,106.05,6981.35,0,0,1551.66,8533.01,2,5602,Yes
+6543-JXSOO,1,Female,30,No,No,Yes,No,0,Yes,5,23,Offer D,Yes,12.88,No,Yes,DSL,41,Yes,Yes,No,Yes,No,No,No,Yes,One Year,Yes,Credit Card,57.75,1282.85,0,0,296.24,1579.09,3,3794,No
+2419-FSORS,1,Male,29,Yes,No,Yes,No,0,Yes,8,72,Offer A,Yes,10.68,Yes,Yes,Fiber Optic,59,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,108.4,7719.5,0,0,768.96,8488.46,4,4394,No
+9548-LIGTA,1,Male,26,Yes,No,Yes,No,0,Yes,2,61,None,Yes,20.34,No,Yes,Cable,51,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Two Year,Yes,Credit Card,81.05,4747.65,0,0,1240.74,5988.389999999999,3,4072,No
+7449-HVPIV,1,Male,38,No,No,Yes,Yes,3,Yes,10,55,Offer B,Yes,22.56,Yes,Yes,Fiber Optic,56,No,No,Yes,No,Yes,No,No,Yes,Month-to-Month,Yes,Credit Card,90.4,5099.15,0,0,1240.8,6339.95,5,4603,No
+4298-OYIFC,1,Male,59,No,No,Yes,No,0,Yes,1,15,None,Yes,18.6,Yes,Yes,Fiber Optic,13,No,No,Yes,Yes,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,103.45,1539.8,0,140,279,1958.8,5,5640,No
+8626-XHBIE,1,Male,48,No,No,No,Yes,3,No,0,56,Offer B,Yes,22.47,Yes,No,None,0,No,No,No,No,No,No,No,No,Two Year,Yes,Credit Card,24.8,1424.2,0,0,1258.32,2682.52,3,4262,No
+4032-RMHCI,1,Female,37,No,No,Yes,Yes,2,Yes,1,41,Offer B,No,0,No,Yes,Cable,16,Yes,No,Yes,No,No,No,No,Yes,One Year,No,Credit Card,35.4,1412.4,0,0,0,1412.4,4,4375,No
+6196-HBOBZ,1,Male,31,No,No,Yes,No,0,Yes,9,65,None,Yes,30.44,Yes,Yes,Fiber Optic,20,Yes,Yes,Yes,No,Yes,No,No,Yes,Two Year,Yes,Bank Withdrawal,99.35,6347.55,0,0,1978.6000000000001,8326.15,4,6300,No
+2874-YXVVA,1,Female,38,No,No,No,No,0,No,0,34,None,Yes,2.82,No,Yes,Fiber Optic,2,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,105.1,3634.8,0,0,95.88,3730.6800000000003,5,3941,No
+9128-CPXKI,1,Female,36,No,No,No,No,0,No,0,59,None,Yes,30.44,No,Yes,Fiber Optic,30,No,No,Yes,No,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,95.8,5655.45,0,0,1795.96,7451.41,3,5470,No
+2176-LVPNX,1,Female,69,No,Yes,No,No,0,No,0,71,Offer A,Yes,37.39,Yes,Yes,DSL,22,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Two Year,No,Credit Card,89.85,6293.45,0,140,2654.69,9088.14,3,4994,No
+1708-PBBOA,1,Female,51,No,No,No,No,0,No,0,42,None,No,0,No,Yes,DSL,13,Yes,Yes,Yes,Yes,No,Yes,Yes,No,One Year,Yes,Bank Withdrawal,54.75,2348.45,0,80,0,2428.45,3,3179,No
+5478-JJVZK,1,Female,38,No,No,No,No,0,No,0,33,None,Yes,15.69,Yes,Yes,DSL,24,Yes,Yes,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,60.9,2033.85,0,0,517.77,2551.62,4,3009,No
+1020-JPQOW,1,Female,63,No,No,Yes,No,0,Yes,1,56,None,Yes,2.8,Yes,Yes,Fiber Optic,20,No,Yes,Yes,Yes,No,No,No,No,Month-to-Month,No,Bank Withdrawal,90.55,5116.6,0,40,156.79999999999998,5313.4000000000005,4,6161,No
+0396-HUJBP,1,Female,34,No,No,No,No,0,No,0,2,None,Yes,49.91,No,No,None,0,No,No,No,No,No,No,No,No,Month-to-Month,No,Credit Card,19.3,44.4,0,0,99.82,144.22,3,3009,No
+7375-WMVMT,1,Male,75,No,Yes,Yes,No,0,Yes,2,71,None,Yes,1.23,No,Yes,Fiber Optic,9,No,Yes,Yes,Yes,No,Yes,No,Yes,Two Year,Yes,Credit Card,95.5,6707.15,0,0,87.33,6794.48,4,6412,No
