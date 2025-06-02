@@ -61,6 +61,14 @@ normalized_dummy <- basic_recipe %>%
   step_dummy(all_factor_predictors())
 normalized_dummy
 
+pca_recipe <- basic_recipe %>% 
+  step_normalize(all_numeric_predictors()) %>% 
+  step_pca(threshold = 0.7) %>% 
+  step_nzv(all_numeric_predictors()) %>% 
+  step_dummy(all_factor_predictors())
+
+
+
 normalized_dummy %>% 
   prep() %>% 
   juice() %>% 
@@ -85,12 +93,20 @@ rf_spec <- rand_forest(mtry = tune(),
   set_mode("classification")
 
 wfset <- workflow_set(preproc = list(norm = normalized_dummy, 
+                                     norm = normalized_dummy, 
+                                     norm = normalized_dummy, 
                                      basic = basic_recipe, 
                                      basic = basic_recipe, 
-                                     norm = normalized_dummy), 
+                                     pca = pca_recipe, 
+                                     pca = pca_recipe, 
+                                     pca = pca_recipe), 
                       models = list(logreg = lr_spec, 
                                     dtree = dtree_spec, 
                                     rf = rf_spec, 
+                                    dtree = dtree_spec, 
+                                    rf = rf_spec, 
+                                    logreg = lr_spec, 
+                                    dtree = dtree_spec, 
                                     rf = rf_spec), 
                       cross = FALSE)
 
@@ -245,7 +261,7 @@ compare_auc
 
 # Extract Final Model & Worflow ----
 
-telco_final_wf <- telco_best_rf %>% 
+telco_final_wf <- telco_best_lr %>% 
   extract_workflow()
 
 telco_final_wf %>% 
